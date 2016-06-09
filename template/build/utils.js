@@ -29,7 +29,7 @@ exports.cssLoaders = function (options) {
     }
   }
 
-  // http://vuejs.github.io/vue-loader/configurations/extract-css.html
+  // https://github.com/vuejs/vue-loader/blob/master/docs/en/configurations/extract-css.md
   return {
     css: generateLoaders(['css']),
     postcss: generateLoaders(['css']),
